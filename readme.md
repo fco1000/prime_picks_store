@@ -9,4 +9,9 @@ the site should have various categories
 - shoes
   etc
 
+admin 
+
+vendor admin
+
+
 various payment forms e.g _mpesa, stripe_

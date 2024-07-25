@@ -21,3 +21,21 @@ class Customer(models.Model):
             return True
         
         return False
+
+class County(models.Model):
+    county = models.CharField(max_length=250)
+    
+    def __str__(self):
+        return str(self.county)
+    
+class SubCounty(models.Model):
+    sub_county = models.CharField(max_length=250)
+    
+    def __str__(self):
+        return str(self.sub_county)
+
+class Address(models.Model):
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
+    phone = models.CharField(max_length=250)
+    county = models.ForeignKey(County, on_delete=models.SET_NULL,null = True)
+    sub_county = models.ForeignKey(SubCounty, on_delete=models.SET_NULL,null=True)
