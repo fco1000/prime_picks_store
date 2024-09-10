@@ -1,0 +1,12 @@
+[
+  {"county": "Taita-Taveta", "subcounty": "Taveta"},
+  {"county": "Taita-Taveta", "subcounty": "Wundanyi"},
+  {"county": "Taita-Taveta", "subcounty": "Mwatate"},
+  {"county": "Taita-Taveta", "subcounty": "Voi"},
+  {"county": "Tharaka-Nithi", "subcounty": "Tharaka"},
+  {"county": "Tharaka-Nithi", "subcounty": "Nithi"},
+  {"county": "Elgeyo-Marakwet", "subcounty": "Marakwet East"},
+  {"county": "Elgeyo-Marakwet", "subcounty": "Marakwet West"},
+  {"county": "Elgeyo-Marakwet", "subcounty": "Keiyo North"},
+  {"county": "Elgeyo-Marakwet", "subcounty": "Keiyo South"}
+]
